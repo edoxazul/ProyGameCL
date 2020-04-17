@@ -11,6 +11,7 @@ public class PlayerMotor : MonoBehaviour
     private Vector3 moveVector;
     private float verticalVelocity = 0.0f;
     private float gravity = 12.0f;
+    private Inventario inventario = new Inventario();
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +37,28 @@ public class PlayerMotor : MonoBehaviour
         // valor en Z atras - adelante
         moveVector.z = speed; 
 
-        controller.Move(moveVector* Time.deltaTime); 
+        controller.Move(moveVector* Time.deltaTime);
 
+    }
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag=="Guante")
+        {
+            inventario.AumentarGuantes();
+            Debug.Log("Se ha añadido un guante");
+            Destroy(hit.gameObject);
+        }
+        if (hit.gameObject.tag == "Mascarilla")
+        {
+            inventario.AumentarMascarillas();
+            Debug.Log("Se ha añadido una mascarilla");
+            Destroy(hit.gameObject);
+        }
+        if (hit.gameObject.tag == "Gema")
+        {
+            inventario.AumentarGemas(1);
+            inventario.MostrarGemas(); 
+            Destroy(hit.gameObject);
+        }
     }
 }
