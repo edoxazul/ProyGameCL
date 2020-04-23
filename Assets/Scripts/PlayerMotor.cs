@@ -5,7 +5,7 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerMotor : MonoBehaviour
+public class PlayerMotor : MonoBehaviour 
 {
     private CharacterController controller; 
     private float speed = 5.0f;
