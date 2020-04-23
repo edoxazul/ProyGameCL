@@ -3,17 +3,10 @@ using System;
 using UnityEngine;
 
 public class Inventario{
-    private int puntaje;
-    private int guantes;
-    private int mascarillas;
     private int gemas;
     private int monedas;
-
     public Inventario()
     {
-        puntaje = 0;
-        guantes = 0;
-        mascarillas = 0;
         try
         {
             TextReader l= new StreamReader("InstanciaInventario.txt");
@@ -32,26 +25,7 @@ public class Inventario{
         monedas = Int32.Parse(linea.ReadLine());
         linea.Close();
     }
-    public void AumentarPuntaje(int cantidad)
-    {
-        puntaje = puntaje + cantidad;
-    }
-    public void AumentarGuantes()
-    {
-        guantes = guantes++;
-    }
-    public void AumentarMascarillas()
-    {
-        mascarillas = mascarillas++;
-    }
-    public void DisminuirGuantes(int cantidad)
-    {
-        guantes = guantes - cantidad;
-    }
-    public void DisminuirMascarillas(int cantidad)
-    {
-        mascarillas = mascarillas - cantidad;
-    }
+
     public void AumentarGemas(int cantidad)
     {
         gemas = gemas + cantidad;
