@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -69,6 +70,11 @@ public class PlayerMotor : MonoBehaviour
             inventario.MostrarGemas();
             ui.AddScore(25);
             Destroy(hit.gameObject);
+        }
+        if(hit.gameObject.tag== "COVID")
+        {
+            SceneManager.LoadScene("GameOver");
+
         }
     }
 }
