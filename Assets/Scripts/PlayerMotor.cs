@@ -71,21 +71,11 @@ public class PlayerMotor : MonoBehaviour
             ui.AddScore(25);
             Destroy(hit.gameObject);
         }
-<<<<<<< HEAD
         if(hit.gameObject.tag == "COVID")
         {
             Debug.Log("Te has infectado");
             SceneManager.LoadScene("GameOver");
 
         }
-=======
-        if (hit.gameObject.tag == "COVID")
-        {
-            SceneManager.LoadScene("GameOver");
-
-        }
-
-
->>>>>>> development
     }
 }

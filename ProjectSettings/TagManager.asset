@@ -9,7 +9,6 @@ TagManager:
   - Gema
   - Moneda
   - Play
-  - COVID
   layers:
   - Default
   - TransparentFX
