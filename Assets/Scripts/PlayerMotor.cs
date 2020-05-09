@@ -70,5 +70,12 @@ public class PlayerMotor : MonoBehaviour
             ui.AddScore(25);
             Destroy(hit.gameObject);
         }
+        if (hit.gameObject.tag == "COVID")
+        {
+            SceneManager.LoadScene("GameOver");
+
+        }
+
+
     }
 }
