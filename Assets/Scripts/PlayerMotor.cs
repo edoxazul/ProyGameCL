@@ -6,6 +6,7 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class PlayerMotor : MonoBehaviour 
 {
     private CharacterController controller; 
@@ -71,8 +72,9 @@ public class PlayerMotor : MonoBehaviour
             ui.AddScore(25);
             Destroy(hit.gameObject);
         }
-        if(hit.gameObject.tag== "COVID")
+        if(hit.gameObject.tag == "COVID")
         {
+            Debug.Log("Te has infectado");
             SceneManager.LoadScene("GameOver");
 
         }
