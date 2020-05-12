@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ScoreNumber : MonoBehaviour
 {
-    private int number = 0;
     public Texture texture0;
     public Texture texture1;
     public Texture texture2;
@@ -23,11 +22,11 @@ public class ScoreNumber : MonoBehaviour
     }
     public void UpdateTexture(int number)
     {
-        if (number==0)
+        if (number == 0)
         {
             this.gameObject.GetComponent<RawImage>().texture = texture0;
         }
-        if (number==1)
+        if (number == 1)
         {
             this.gameObject.GetComponent<RawImage>().texture = texture1;
         }

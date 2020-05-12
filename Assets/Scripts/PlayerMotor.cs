@@ -56,12 +56,14 @@ public class PlayerMotor : MonoBehaviour
             ui.AddGuante();
             Debug.Log("Se ha añadido un guante");
             Destroy(hit.gameObject);
+            return;
         }
         if (hit.gameObject.tag == "Mascarilla")
         {
             ui.AddMascarilla();
             Debug.Log("Se ha añadido una mascarilla");
             Destroy(hit.gameObject);
+            return;
         }
         if (hit.gameObject.tag == "Gema")
         {
@@ -69,13 +71,12 @@ public class PlayerMotor : MonoBehaviour
             inventario.MostrarGemas();
             ui.AddScore(25);
             Destroy(hit.gameObject);
+            return;
         }
         if (hit.gameObject.tag == "COVID")
         {
             SceneManager.LoadScene("GameOver");
-
+            return;
         }
-
-
     }
 }
