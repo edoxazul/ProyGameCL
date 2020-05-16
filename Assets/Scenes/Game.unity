@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 657002834}
   - component: {fileID: 657002833}
   - component: {fileID: 657002832}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui_p3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 1161485052}
   - component: {fileID: 1161485051}
   - component: {fileID: 1161485050}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui_m
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,16 +1040,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161485048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1195}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 577991599}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.4, y: -8}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.88655555, y: 0.040000003}
+  m_AnchorMax: {x: 0.975, y: 0.09200001}
+  m_AnchoredPosition: {x: 3, y: -1.5}
+  m_SizeDelta: {x: 4, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161485050
 MonoBehaviour:
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 1296466795}
   - component: {fileID: 1296466794}
   - component: {fileID: 1296466793}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui_g
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,16 +1133,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296466791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1195}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 577991599}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4, y: -8}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.07844445, y: 0.040000003}
+  m_AnchorMax: {x: 0.171, y: 0.09200001}
+  m_AnchoredPosition: {x: 1.7000122, y: -2}
+  m_SizeDelta: {x: -5.4, y: -6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1296466793
 MonoBehaviour:
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 1501434133}
   - component: {fileID: 1501434132}
   - component: {fileID: 1501434131}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui_p2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,7 +1492,7 @@ GameObject:
   - component: {fileID: 1545285059}
   - component: {fileID: 1545285058}
   - component: {fileID: 1545285060}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ui_p1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

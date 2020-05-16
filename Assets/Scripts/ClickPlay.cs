@@ -13,7 +13,7 @@ public class ClickPlay : MonoBehaviour
     public void QuitGame()
     {
 
-        UnityEditor.EditorApplication.isPlaying = false;
+        
         Application.Quit();
 
     }
