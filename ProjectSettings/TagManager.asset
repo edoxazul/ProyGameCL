@@ -10,6 +10,9 @@ TagManager:
   - Moneda
   - Play
   - COVID
+  - Exit
+  - Settings
+  - MenuPrincipal
   layers:
   - Default
   - TransparentFX
