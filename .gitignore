@@ -1,10 +1,20 @@
+# Visual Studio cache directory
+.vs/
 
-Logs/
+# Ignore files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
-Library/
+
+
 
 .collabignore
 
 InstanciaInventario.txt
 
-Temp/
+
