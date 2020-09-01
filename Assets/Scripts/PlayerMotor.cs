@@ -36,7 +36,7 @@ public class PlayerMotor : MonoBehaviour
         // valor en X izq- der
         moveVector.x = Input.GetAxisRaw("Horizontal")*speed;
         // valor en Y arriba - abajo
-        moveVector.y = verticalVelocity; 
+        moveVector.y = verticalVelocity;
         // valor en Z atras - adelante
         moveVector.z = speed; 
 

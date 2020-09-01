@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player
+  m_Name: Anais
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,7 +22,7 @@ AnimationClip:
     - time: 0
       value: {fileID: 21300000, guid: f4e3690dec237e54a9c8811701c63a47, type: 3}
     - time: 0.1
-      value: {fileID: 21300000, guid: 894911691b1165d48be20722dea81a97, type: 3}
+      value: {fileID: 21300000, guid: f4e3690dec237e54a9c8811701c63a47, type: 3}
     - time: 0.21666667
       value: {fileID: 21300000, guid: a1a543ad1e8f6634ebc38660d55e9f25, type: 3}
     - time: 0.31666666
@@ -55,7 +55,7 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: f4e3690dec237e54a9c8811701c63a47, type: 3}
-    - {fileID: 21300000, guid: 894911691b1165d48be20722dea81a97, type: 3}
+    - {fileID: 21300000, guid: f4e3690dec237e54a9c8811701c63a47, type: 3}
     - {fileID: 21300000, guid: a1a543ad1e8f6634ebc38660d55e9f25, type: 3}
     - {fileID: 21300000, guid: b7c723846bf56b343a40a24b2dc71608, type: 3}
     - {fileID: 21300000, guid: 03849a998c6d7ca40b8f579e3ae6ee78, type: 3}

@@ -6,7 +6,8 @@ using UnityEngine;
 public class MainCamera : MonoBehaviour
 {
     private Transform lookAt;
-    private Vector3 startOffset; 
+    private Vector3 startOffset;
+    public 
     // Start is called before the first frame update
     void Start()
     {
